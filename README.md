@@ -69,7 +69,7 @@ The assignment uses the same numeric mapping URL for two different identifiers: 
 ### Patient payload
 
 ```json
-{"name": "Jane Doe", "age": 32, "gender": "female", "email": "jane@example.com", "phone": "+919876543210", "address": "Example Street", "medical_history": "No known allergies"}
+{"name": "Anvesha Singh", "age": 21, "gender": "female", "email": "anvesha21@example.com", "phone": "+919876543210", "address": "Example Street", "medical_history": "No known allergies"}
 ```
 
 `name` and `age` are required. Age must be 0-150. Gender is `female`, `male`, `other`, or `unspecified` (default). Contact information, address, and medical history are optional. The server sets `owner` from the authenticated user; clients cannot override ownership. Foreign patients return `404` for retrieval, update, deletion, and mapping lookup.
